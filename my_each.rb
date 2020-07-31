@@ -11,5 +11,5 @@ words
 end
 
 my_each(words) do |word|
-  puts word.split(" ")
+  puts word.join
 end 
